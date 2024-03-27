@@ -15,7 +15,7 @@ from Settings.config import (BOT_TOKEN, BOT_PREFIX, BOT_SYNC_COMMANDS_GlOBALLY,
                              BOT_AUTO_ROLE_ID, BOT_NOTICE_CHANNEL, BOT_USE_EDIT_NOTICE,
                              BOT_USE_REMOVE_NOTICE, LIST_OF_FORBIDDEN_CHANNELS)
 
-#keep_alive()
+keep_alive()
 
 intents = discord.Intents.default()
 intents.members = True
